@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+   
         <main className={"bg-black"}>
             
             <Navbar></Navbar>
@@ -18,7 +18,7 @@ function App() {
 
 
         </main>
-      </>
+      
   )
 }
 
