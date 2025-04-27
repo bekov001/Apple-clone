@@ -1,5 +1,3 @@
----
-
 # 🛠 Titanium Frame
 
 Live site: [https://titanium-frame.netlify.app/](https://titanium-frame.netlify.app/)
@@ -10,11 +8,11 @@ A smooth and clean Apple-style landing page clone built with modern technologies
 
 ## 📸 Previews
 
-<img src="./img/Снимок.jpg" alt="Screenshot 1" />
-<img src="./img/Снимок-1.jpg" alt="Screenshot 2" />
-<img src="./img/Снимок-2.jpg" alt="Screenshot 3" />
-<img src="./img/Снимок-3.jpg" alt="Screenshot 4" />
-<img src="./img/Снимок-4.jpg" alt="Screenshot 5" />
+<img src="./img/Снимок.JPG" alt="Screenshot 1" />
+<img src="./img/Снимок-1.JPG" alt="Screenshot 2" />
+<img src="./img/Снимок-2.JPG" alt="Screenshot 3" />
+<img src="./img/Снимок-3.JPG" alt="Screenshot 4" />
+<img src="./img/Снимок-4.JPG" alt="Screenshot 5" />
 
 ---
 
