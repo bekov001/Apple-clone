@@ -32,7 +32,7 @@ A smooth and clean Apple-style landing page clone built with modern technologies
 1. Clone the repository:
    ```bash
    git clone https://github.com/bekov001/Apple-clone.git
-   cd your-repo-name
+   cd Apple-clone
    ```
 
 2. Install dependencies:
