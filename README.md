@@ -1,54 +1,79 @@
-# React + TypeScript + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛠 Titanium Frame
 
-Currently, two official plugins are available:
+Live site: [https://titanium-frame.netlify.app/](https://titanium-frame.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A smooth and clean Apple-style landing page clone built with modern technologies — React, TypeScript, Vite, Three.js, and TailwindCSS.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📸 Previews
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+<img src="./img/Снимок.jpg" alt="Screenshot 1" />
+<img src="./img/Снимок-1.jpg" alt="Screenshot 2" />
+<img src="./img/Снимок-2.jpg" alt="Screenshot 3" />
+<img src="./img/Снимок-3.jpg" alt="Screenshot 4" />
+<img src="./img/Снимок-4.jpg" alt="Screenshot 5" />
+
+---
+
+## 🧩 Tech Stack
+
+- **React** — component-based UI
+- **TypeScript** — type-safe coding
+- **Vite** — fast bundler and dev server
+- **Three.js** — 3D rendering and animations
+- **TailwindCSS** — utility-first CSS styling
+- **GSAP** — advanced animations
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bekov001/Apple-clone.git
+   cd your-repo-name
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Output will be in the `/dist` folder.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🌟 Features
+
+- 3D interactive product views
+- Smooth GSAP scroll animations
+- Fully responsive design
+- Apple-inspired minimalistic style
+- Fast load time and optimized performance
+
+---
+
+## 📄 License
+
+This project is for educational and portfolio purposes only.  
+Not affiliated with Apple Inc.
+
+---
